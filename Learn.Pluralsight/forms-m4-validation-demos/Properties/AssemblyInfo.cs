@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("_1.jQueryForms")]
+[assembly: AssemblyTitle("forms_m4_validation_demos")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("_1.jQueryForms")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCompany("Hewlett-Packard Company")]
+[assembly: AssemblyProduct("forms_m4_validation_demos")]
+[assembly: AssemblyCopyright("Copyright © Hewlett-Packard Company 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0576324f-7e02-40dd-920f-8a6ec37aa60c")]
+[assembly: Guid("e24343dc-bd60-45c9-997b-c208a8e806e6")]
 
 // Version information for an assembly consists of the following four values:
 //

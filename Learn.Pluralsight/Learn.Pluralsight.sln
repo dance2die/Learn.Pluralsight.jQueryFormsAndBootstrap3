@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m3-jquery-all-demos", "forms-m3-jquery-all-demos\forms-m3-jquery-all-demos.csproj", "{2350D17B-93CB-4E5A-AF47-B0A05E0F68D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m4-validation-demos", "forms-m4-validation-demos\forms-m4-validation-demos.csproj", "{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2350D17B-93CB-4E5A-AF47-B0A05E0F68D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2350D17B-93CB-4E5A-AF47-B0A05E0F68D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2350D17B-93CB-4E5A-AF47-B0A05E0F68D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
