@@ -96,20 +96,25 @@
 
     </form>
 
-    <script>
+<script>
 
-        $('form').validate({
-            rules: {
-                fullname: {
-                    required: true
-                },
-                password: {
-                    required: true
-                }
-            }
-        });
+	$.validator.addMethod("startsWithA", function(value, element) {
+		return /^A/.test(value);
+	}, "Field must start with A");
 
-    </script>
+	$('form').validate({
+		rules: {
+			fullname: {
+				required: true,
+				startsWithA: true
+			},
+			password: {
+				required: true
+			}
+		}
+	});
+
+</script>
 
 </body>
 </html>
