@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m3-jquery-all-demos",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m4-validation-demos", "forms-m4-validation-demos\forms-m4-validation-demos.csproj", "{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m5-binding-demos", "forms-m5-binding-demos\forms-m5-binding-demos.csproj", "{3F3E5658-5AE0-4B11-A165-6C41B45627DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBAE5DA5-BBC4-4AF5-954F-4B6A4E2BA5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
