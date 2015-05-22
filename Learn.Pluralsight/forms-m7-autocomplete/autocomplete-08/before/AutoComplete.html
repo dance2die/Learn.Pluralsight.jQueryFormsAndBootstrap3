@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/typeahead.js-bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/typeahead.min.js"></script>
+    <script src="../../Scripts/hogan.min.js"></script>
+    <style>
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input id="type-ahead" type="text" class="form-control" />
+    <script>
+
+        $(function () {
+            $('#type-ahead').typeahead(
+                [
+                    {
+
+                        local: [
+                            {
+                                value: 'Giants',
+                                year: 2012,
+                                tokens: ['New York', 'Giants']
+                            },
+                            {
+                                value: 'Jets',
+                                year: 1969,
+                                tokens: ['New York', 'Jets']
+                            }
+                        ]
+                    }
+                ]
+
+            );
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/typeahead.js-bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/typeahead.js"></script>
+    
+    <style>
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input id="type-ahead" type="text" class="form-control" />
+    <script>
+
+        $(function () {
+            $('#type-ahead').typeahead(
+                {
+                    name: 'football-teams-cached2',
+                    prefetch: {
+                        url: './teams.json',
+                        ttl: 0
+                    }
+                }
+            );
+
+        });
+    </script>
+</body>
+</html>

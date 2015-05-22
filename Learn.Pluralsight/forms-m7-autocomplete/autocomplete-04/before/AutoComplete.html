@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/typeahead.js-bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/typeahead.min.js"></script>
+    
+    <style>
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input id="type-ahead" type="text" class="form-control" />
+    <script>
+
+        $(function () {
+            $('#type-ahead').typeahead([
+                
+                {
+                    name: 'football-teams',
+                    local: ['Giants', 'Jets', 'Raiders', 'Bears'],
+                    header: '<h4>Football Teams</h4>'
+                },
+                {
+                    name: 'baseball-teams',
+                    local: ['Yankees', 'Mets', 'Athletics', 'White Sox', 'Brewers'],
+                    header: '<h4>Baseball Teams</h4>'
+                }
+                
+                ]);
+            }
+        );
+
+    </script>
+</body>
+</html>
