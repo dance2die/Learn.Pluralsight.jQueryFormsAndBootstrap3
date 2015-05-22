@@ -20,8 +20,32 @@
 		var footballTeams = ["Giants", "Jets", "Raiders", "Bears"];
 		var baseballTeams = ["Yankees", "Mets", "Athletics", "White Sox", "Red Sox"];
 
+		$(function () {
+			$("#type-ahead").typeahead({
+				hint: true,
+				highlight: true,
+				minLength: 1
+			},
+			{
+				name: "footballTeams",
+				source: substringMatcher(footballTeams),
+				templates: {
+					header: '<h3 class="league-name">Football</h3>'
+				}
+			},
+			{
+				name: "baseballTeams",
+				source: substringMatcher(baseballTeams),
+				templates: {
+					header: '<h3 class="league-name">Baseball</h3>'
+				}
+			}
+			);
+		});
+
+
 		// http://twitter.github.io/typeahead.js/examples/
-		var substringMatcher = function (strs) {
+		function substringMatcher(strs) {
 			return function findMatches(q, cb) {
 				var substringRegex;
 
@@ -36,7 +60,7 @@
 				$.each(strs, function (i, str) {
 					if (substrRegex.test(str)) {
 						// http://stackoverflow.com/a/25401241/4035
-						matches.push({"value": str});
+						matches.push({ "value": str });
 					}
 				});
 
@@ -44,22 +68,6 @@
 			};
 		};
 
-		$(function () {
-			$("#type-ahead").typeahead({
-				hint: true,
-				highlight: true,
-				minLength: 1
-			},
-			{
-				name: "footballTeams",
-				source: substringMatcher(footballTeams)
-			},
-			{
-				name: "baseballTeams",
-				source: substringMatcher(baseballTeams)
-			}
-			);
-		});
 
 	</script>
 </body>
