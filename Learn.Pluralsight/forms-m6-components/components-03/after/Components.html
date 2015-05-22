@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/smalot-datetimepicker/datetimepicker.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../../Scripts/bootstrap-datetimepicker.min.js"></script>
+    <style>
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" value="2013-11-20 9:05" id="datetimepicker">
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker').datetimepicker({
+                format: 'yyyy-mm-dd hh:ii'
+            });
+
+
+        });
+    </script>
+
+</body>
+</html>

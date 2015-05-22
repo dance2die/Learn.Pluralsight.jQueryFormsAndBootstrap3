@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m4-validation-demos",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m5-binding-demos", "forms-m5-binding-demos\forms-m5-binding-demos.csproj", "{3F3E5658-5AE0-4B11-A165-6C41B45627DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m6-components", "forms-m6-components\forms-m6-components.csproj", "{4DA7FCFD-2A16-4953-BD45-FFF1536508A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3E5658-5AE0-4B11-A165-6C41B45627DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA7FCFD-2A16-4953-BD45-FFF1536508A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA7FCFD-2A16-4953-BD45-FFF1536508A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA7FCFD-2A16-4953-BD45-FFF1536508A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA7FCFD-2A16-4953-BD45-FFF1536508A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

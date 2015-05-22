@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-switch.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../../Scripts/bootstrap-switch.min.js"></script>
+    <style>
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="dimension-switch" class="switch make-switch">    
+        <input type="checkbox" checked>
+    </div>
+
+    <script>
+        $(function () {
+            $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-large');
+        });
+    </script>
+
+</body>
+</html>
