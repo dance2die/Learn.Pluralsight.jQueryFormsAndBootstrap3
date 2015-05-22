@@ -64,6 +64,11 @@
     <Content Include="components-04\after\Components.html" />
     <Content Include="components-04\before\Components.html" />
     <Content Include="Content\bootstrap-switch.css" />
+    <Content Include="Content\bootstrap-switch.min.css" />
+    <Content Include="Content\bootstrap-switch\bootstrap2\bootstrap-switch.css" />
+    <Content Include="Content\bootstrap-switch\bootstrap2\bootstrap-switch.min.css" />
+    <Content Include="Content\bootstrap-switch\bootstrap3\bootstrap-switch.css" />
+    <Content Include="Content\bootstrap-switch\bootstrap3\bootstrap-switch.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -72,13 +77,13 @@
     <Content Include="Content\smalot-datetimepicker\bootstrap-datetimepicker.css" />
     <Content Include="Content\smalot-datetimepicker\bootstrap-datetimepicker.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Scripts\bootstrap-switch.js" />
-    <Content Include="Scripts\bootstrap-switch.min.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap-switch.js" />
+    <Content Include="Scripts\bootstrap-switch.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
