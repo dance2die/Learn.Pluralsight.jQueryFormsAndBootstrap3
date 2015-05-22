@@ -19,7 +19,8 @@
 	<input id="type-ahead" type="text" class="form-control" />
 
 	<script>
-		var teams = ["Giants", "Jets", "Raiders", "Bears"];
+		var footballTeams = ["Giants", "Jets", "Raiders", "Bears"];
+		var baseballTeams = ["Yankees", "Mets", "Athletics", "White Sox", "Red Sox"];
 
 		// http://twitter.github.io/typeahead.js/examples/
 		var substringMatcher = function (strs) {
@@ -52,9 +53,14 @@
 				minLength: 1
 			},
 			{
-				name: "teams",
-				source: substringMatcher(teams)
-			});
+				name: "footballTeams",
+				source: substringMatcher(footballTeams)
+			},
+			{
+				name: "baseballTeams",
+				source: substringMatcher(baseballTeams)
+			}
+			);
 		});
 
 	</script>
