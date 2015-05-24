@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m6-components", "form
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m7-autocomplete", "forms-m7-autocomplete\forms-m7-autocomplete.csproj", "{4F3FCB83-828E-43F6-B6FD-22CA3B8342E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms-m8-processing", "forms-m8-processing\forms-m8-processing.csproj", "{0B039BCC-979B-4E5C-A7F4-D42BAE5DEAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4F3FCB83-828E-43F6-B6FD-22CA3B8342E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3FCB83-828E-43F6-B6FD-22CA3B8342E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3FCB83-828E-43F6-B6FD-22CA3B8342E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B039BCC-979B-4E5C-A7F4-D42BAE5DEAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B039BCC-979B-4E5C-A7F4-D42BAE5DEAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B039BCC-979B-4E5C-A7F4-D42BAE5DEAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B039BCC-979B-4E5C-A7F4-D42BAE5DEAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
