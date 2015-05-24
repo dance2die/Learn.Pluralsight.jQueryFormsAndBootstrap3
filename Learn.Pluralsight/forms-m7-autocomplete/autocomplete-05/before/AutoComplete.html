@@ -1,31 +1,64 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="../../Content/typeahead.js-bootstrap.css" rel="stylesheet" />
-    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
-    <script src="../../Scripts/typeahead.js"></script>
-    
-    <style>
-        body {
-            margin: 30px;
-        }
-    </style>
+	<title></title>
+	<link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+	<link href="../../Content/typeahead.css" rel="stylesheet" />
+	<script src="../../Scripts/jquery-1.10.2.min.js"></script>
+	<script src="../../Scripts/typeahead.bundle.min.js"></script>
+
+	<style>
+		body {
+			margin: 30px;
+		}
+	</style>
 </head>
 <body>
-    <input id="type-ahead" type="text" class="form-control" />
-    <script>
+	<input id="type-ahead" type="text" class="form-control" />
 
-        $(function () {
-            $('#type-ahead').typeahead(
-                    {
-                        name: 'football-footballTeams',
-                        local: ['Giants', 'Jets']
-                    }
-            );
+	<script>
+		var footballTeams = ["Giants", "Jets", "Raiders", "Bears"];
+		var baseballTeams = ["Yankees", "Mets", "Athletics", "White Sox", "Red Sox"];
 
-        });
-    </script>
+		$(function () {
+			$("#type-ahead").typeahead({
+				hint: true,
+				highlight: true,
+				minLength: 1
+			},
+			{
+				name: "footballTeams",
+				source: substringMatcher(footballTeams)
+			}
+			);
+		});
+
+
+		// http://twitter.github.io/typeahead.js/examples/
+		function substringMatcher(strs) {
+			return function findMatches(q, cb) {
+				var substringRegex;
+
+				// an array that will be populated with substring matches
+				var matches = [];
+
+				// regex used to determine if a string contains the substring `q`
+				substrRegex = new RegExp(q, 'i');
+
+				// iterate through the pool of strings and for any string that
+				// contains the substring `q`, add it to the `matches` array
+				$.each(strs, function (i, str) {
+					if (substrRegex.test(str)) {
+						// http://stackoverflow.com/a/25401241/4035
+						matches.push({ "value": str });
+					}
+				});
+
+				cb(matches);
+			};
+		};
+
+
+	</script>
 </body>
 </html>
